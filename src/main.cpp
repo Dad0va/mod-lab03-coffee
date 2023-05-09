@@ -16,8 +16,7 @@ int main() {
         DrinkMachine.cook(drink);
         int change = DrinkMachine.finish();
         cout << "Drink is ready! Please, take your change: " << change << '\n';
-    }
-    else {
+    } else {
         int change = DrinkMachine.cancel();
         cout << "Your order is cancelled :(. Please, take your change: "
             << change << '\n';
